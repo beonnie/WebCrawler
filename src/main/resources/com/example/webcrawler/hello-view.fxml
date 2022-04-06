@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<FlowPane fx:id="primaryFlow"
+          alignment="CENTER" stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/17" fx:controller="com.example.webcrawler.HelloController">
+
+    <FlowPane alignment="CENTER">
+        <Pane>
+            <Button fx:id="startBtn" onAction="#onStartCrawlBtnClick" prefWidth="40"/>
+        </Pane>
+        <Pane>
+            <Button fx:id="stopBtn" onAction="#onStopCrawlBtnClick" prefWidth="40"/>
+        </Pane>
+        <Pane>
+            <Button fx:id="exportBtn" onAction="#onExportCSVBtnClick" prefWidth="40"/>
+        </Pane>
+        <Pane>
+            <Button fx:id="exportTop10Btn" onAction="#onExportTop10CSVBtnClick" prefWidth="40"/>
+        </Pane>
+    </FlowPane>
+
+    <FlowPane alignment="CENTER">
+        <Pane>
+            <Button fx:id="closeBtn" onAction="#onCloseBtnClick" prefWidth="40"/>
+        </Pane>
+    </FlowPane>
+
+    <FlowPane alignment="CENTER">
+        <Pane>
+            <TextField fx:id="startUrl" promptText="Start url" prefWidth="90"/>
+        </Pane>
+        <Pane>
+            <TextField fx:id="keywords" promptText="Keywords" prefWidth="90"/>
+        </Pane>
+    </FlowPane>
+
+    <FlowPane alignment="CENTER">
+        <Pane>
+            <TextField fx:id="crawlDepth" promptText="Crawl depth" prefWidth="90"/>
+        </Pane>
+        <Pane>
+            <TextField fx:id="linksLimit" promptText="Links limit" prefWidth="90"/>
+        </Pane>
+    </FlowPane>
+
+</FlowPane>
+
+
+
+

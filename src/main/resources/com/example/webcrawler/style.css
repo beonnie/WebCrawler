@@ -1,0 +1,48 @@
+
+
+Pane
+{
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+#startBtn
+{
+-fx-background-image: url("image/start.png");
+-fx-background-size: 17 17;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
+
+#exportBtn
+{
+-fx-background-image: url("image/export.png");
+-fx-background-size: 17 17;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
+
+#exportTop10Btn
+{
+-fx-background-image: url("image/top10.png");
+-fx-background-size: 20 20;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
+
+#stopBtn
+{
+-fx-background-image: url("image/stop.png");
+-fx-background-size: 23 23;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
+
+#closeBtn
+{
+-fx-background-image: url("image/close.png");
+-fx-background-size: 20 20;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
